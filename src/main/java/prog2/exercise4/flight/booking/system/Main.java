@@ -3,14 +3,10 @@ package prog2.exercise4.flight.booking.system;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class Main 
-{
-    public static void main( String[] args )
-    {
+
+public class Main {
+    public static void main( String[] args ){
+    
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your full name: ");
         String passengerFullName = input.nextLine();
